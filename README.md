@@ -93,6 +93,7 @@ Generate quizzes for test prep or revision
 Perform semantic search on spoken content
 
 Enable fast comprehension of tutorials, interviews, etc.
+
 ##🧭 Roadmap
 
  Streamlit App
@@ -110,9 +111,11 @@ Enable fast comprehension of tutorials, interviews, etc.
  Voice-based question answering
 
 ##📜 License
+
 MIT License © 2025 SREENATH S
 
 ##🙋 Contact
+
 📧 Email: sreenathssreenaths8@gmail.com
 🔗 GitHub: github.com/SREENATH-065
 
