@@ -42,3 +42,65 @@
 
 ## 📁 Project Structure
 
+vidbrief/
+├── app.py # Streamlit frontend logic
+├── utils/
+│ ├── downloader.py
+│ ├── embedder.py
+│ ├── mcq_generator.py
+│ ├── qa_engine.py
+│ ├── summarizer.py
+│ └── transcriber.py
+├── requirements.txt
+└── README.md
+
+
+> ⚠️ Note: The Google Colab notebook is not in this repo. It's hosted [here](https://colab.research.google.com/drive/1Z3yp73RgaRNJ2cB_fbnsA9WKvyj53ClT).
+
+---
+
+## ⚙️ Setup Instructions
+
+### ▶️ Run Locally (Streamlit)
+
+```bash
+git clone https://github.com/SREENATH-065/VidBrief.git
+cd VidBrief
+pip install -r requirements.txt
+Create a .env file:
+CLAUDE_API_KEY=your_claude_api_key
+
+Then launch:
+
+streamlit run app.py
+
+Make sure FFmpeg is installed and accessible via your system PATH.
+🧪 Run on Colab
+Use this hosted notebook:
+🔗 Colab Notebook
+
+🚀 Use Cases
+Summarize long YouTube lectures into concise notes
+
+Generate quizzes for test prep or revision
+
+Perform semantic search on spoken content
+
+Enable fast comprehension of tutorials, interviews, etc.
+🧭 Roadmap
+ Streamlit App
+
+ Claude-based summarization + quiz
+
+ Whisper + transcript fallback
+
+ LangChain Q&A
+
+ Gamified quiz (in development)
+
+ Topic-based summarization
+
+ Voice-based question answering
+
+📜 License
+MIT License © 2025 SREENATH S
