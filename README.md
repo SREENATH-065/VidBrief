@@ -43,16 +43,18 @@
 ## 📁 Project Structure
 
 vidbrief/
+vidbrief/
 ├── app.py # Streamlit frontend logic
-├── utils/
+├── utils/ # Reusable utility modules
 │ ├── downloader.py
 │ ├── embedder.py
 │ ├── mcq_generator.py
 │ ├── qa_engine.py
 │ ├── summarizer.py
 │ └── transcriber.py
-├── requirements.txt
-└── README.md
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+├── LICENSE # MIT License (SREENATH S)
 
 
 > ⚠️ Note: The Google Colab notebook is not in this repo. It's hosted [here](https://colab.research.google.com/drive/1Z3yp73RgaRNJ2cB_fbnsA9WKvyj53ClT).
@@ -82,7 +84,8 @@ Make sure FFmpeg is installed and accessible via your system PATH.
 Use this hosted notebook:
 🔗 Colab Notebook
 
-🚀 Use Cases
+##🚀 Use Cases
+
 Summarize long YouTube lectures into concise notes
 
 Generate quizzes for test prep or revision
@@ -90,7 +93,8 @@ Generate quizzes for test prep or revision
 Perform semantic search on spoken content
 
 Enable fast comprehension of tutorials, interviews, etc.
-🧭 Roadmap
+##🧭 Roadmap
+
  Streamlit App
 
  Claude-based summarization + quiz
@@ -105,30 +109,10 @@ Enable fast comprehension of tutorials, interviews, etc.
 
  Voice-based question answering
 
-📜 License
+##📜 License
 MIT License © 2025 SREENATH S
-MIT License
 
-Copyright (c) 2025 SREENATH S
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-🙋 Contact
+##🙋 Contact
 📧 Email: sreenathssreenaths8@gmail.com
 🔗 GitHub: github.com/SREENATH-065
 
